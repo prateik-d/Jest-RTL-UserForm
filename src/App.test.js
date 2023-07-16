@@ -16,16 +16,16 @@ test('can received a new user and show it on list', () => {
   const button = screen.getByRole('button');
 
   user.click(nameInput);
-  user.keyboard('pra');
+  user.keyboard('prateik');
   user.click(emailInput);
   user.keyboard('jane@jane.com');
   
   user.click(button);
 
   
-  const name = screen.getByRole('textbox', { name: 'pra' });
+  const name = screen.getByRole('cell', { name: 'prateik' });
   
-  const email = screen.getByRole('textbox', { name: 'jane@jane.com' });
+  const email = screen.getByRole('cell', { name: 'prateik@prateik.com' });
   
   // screen.logTestingPlaygroundURL();
 

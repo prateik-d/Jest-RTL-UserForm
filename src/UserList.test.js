@@ -3,7 +3,7 @@ import UserList from './UserList';
 
 const renderComponent = () => {
     const users = [
-        { name: 'jane', email: 'jane@jane.com' },
+        { name: 'prateik', email: 'prateik@d.com' },
         { name: 'sam', email: 'sam@sam.com' },
     ]
 
